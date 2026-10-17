@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # RetailMax DataOps
 
 Repositorio del pipeline de datos y del modelo de predicción de ventas de RetailMax (5 países de Latinoamérica). Su objetivo es que cualquier resultado (modelo, dashboard o análisis) se pueda recrear en cualquier momento a través de comandos.
@@ -15,7 +14,7 @@ Repositorio del pipeline de datos y del modelo de predicción de ventas de Retai
 | Pruebas | `tests/` | Pruebas de esquema y calidad de datos |
 | Documentación | `docs/` | Procedencia de datos y diagramas |
 
-## Qué NO se versiona y por qué
+## Qué no se versiona y por qué
 
 | No se versiona | Por qué | Dónde vive |
 |---|---|---|
