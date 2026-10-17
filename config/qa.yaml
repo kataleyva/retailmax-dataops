@@ -1,0 +1,5 @@
+entorno: qa
+base_datos:
+  host: ${DB_HOST}
+  nombre: retailmax_qa
+datos: snapshot_anonimizado

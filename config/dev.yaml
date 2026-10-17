@@ -1,0 +1,5 @@
+entorno: dev
+base_datos:
+  host: localhost
+  nombre: retailmax_dev
+datos: sinteticos

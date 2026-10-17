@@ -1,0 +1,7 @@
+{
+  "modelo": "RandomForestRegressor",
+  "n_estimators": 200,
+  "max_depth": 12,
+  "semilla": 42,
+  "version_datos_entrenamiento": "ventas_2026-09"
+}

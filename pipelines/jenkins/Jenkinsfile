@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build')         { steps { sh 'docker build -t retailmax -f infraestructura/docker/Dockerfile .' } }
+        stage('Analisis')      { steps { sh 'pylint src/' } }
+        stage('Test de datos') { steps { sh 'pytest tests/' } }
+        stage('Deploy QA')     { steps { sh 'terraform -chdir=infraestructura/terraform apply -var-file=qa.tfvars -auto-approve' } }
+    }
+}

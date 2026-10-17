@@ -1,0 +1,5 @@
+entorno: prod
+base_datos:
+  host: ${DB_HOST}        # viene de una variable de entorno, nunca escrito aquí
+  nombre: retailmax_prod
+datos: reales
